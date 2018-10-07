@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './components/BusinessList/BusinessList';
-import './components/SearchBar/SearchBar'
-import SearchBar from './components/SearchBar/SearchBar';
-import BusinessList from './components/BusinessList/BusinessList';
+import '../BusinessList/BusinessList';
+import '../SearchBar/SearchBar'
+import SearchBar from '../SearchBar/SearchBar';
+import BusinessList from '../BusinessList/BusinessList';
 
 let business = {
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
